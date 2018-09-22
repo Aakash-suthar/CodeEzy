@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>CodeEzy</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <!--Pulling Awesome Font -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+      <link href="css/mystyle.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: black;border: 0px">
+      <div class="container-fluid">
+        <div class="navbar-header col-lg-4">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="navbar-brand" href="index.html" id="mainlogo"><img id="mainlogoimg" src="img/main3.png"/></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" style="margin-top: 5px; margin-bottom: 5px"  id="navlink">
+            <li><a href="#" id="home">Home</a></li>
+            <li class="dropdown">
+              <a href="#" id="dropstyle" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu" id="dropdown">
+                <li><a href="service.html">MobileApp Development</a></li>
+                <li><a href="service.html">Windows Application</a></li>
+                                <li><a href="service.html" >Web Development/Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">IOT</li>
+                <li><a href="service.html">Home Automation</a></li>
+                <li><a href="service.html">Robotics</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" id="dropstyle" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu" id="dropdown">
+                <li><a href="#">Professional Projects</a></li>
+                <li role="separator" class="divider"></li>
+<!--              <li class="dropdown-header">Nav header</li>-->
+                <li><a href="#">College Projects</a></li>
+                  <li role="separator" class="divider"></li>
+<!--              <li class="dropdown-header">Nav header</li>-->
+                <li><a href="#">Custom Projects</a></li>
+              </ul>
+            </li>
+               <li><a data-toggle="modal" style="cursor: pointer" data-target="#myModal">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right"  id="navlink">
+            <li><a>123-34-34-45 </a></li>
+              
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <div id="mydropdown"><ul>
+                <li><a href="#">Professional Projects</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">College Projects</a></li>
+                  <li role="separator" class="divider"></li>
+                <li><a href="#">Custom Projects</a></li>
+                 <li><a href="#">Custom Projects</a></li>
+              </ul></div>
+
+<!--    Contact Us form div-->
+<div class="modal fade container-fluid" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content container-fluid">
+      <div class="modal-header" style="padding: 10px;">
+        <button type="button" class="close" data-dismiss="modal" style="margin-top: 3px;" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h3 class="modal-title" id="myModalLabel" align="center">Contact Us</h3>
+      </div>
+      <div class="modal-body container-fluid">
+          <form method="post" action="contact.php">
+          <div class="col-xs-12 col-lg-6 col-md-6" style="margin-bottom:10px;"><div class="form-group"><input class="form-control" type="text" placeholder="First Name : *" required/></div></div>
+          <div class="col-xs-12 col-lg-6 col-md-6" style="margin-bottom:10px;"><div class="form-group"><input class="form-control" type="text" placeholder="Last Name : *" required/></div></div>
+          <div class="col-xs-12 col-lg-8 col-md-8" style="margin-bottom:10px;"><div class="form-group"><input class="form-control" type="text" placeholder="Email *" required/></div></div>
+          <div class="col-xs-12 col-lg-12 col-md-12" style="margin-bottom: 10px;"><div class="form-group"><textarea class="form-control" style="height:100px;" placeholder="How we can help you *" required></textarea></div></div>
+              <div class="col-xs-12 col-lg-12 col-md-12" style="margin-bottom:15px;">
+             <div class="custom-radios form-group">Are you our existing client : 
+                      <div>
+                        <input type="radio" id="color-1" name="existing" value="Yes">
+                        <label for="color-1">
+                          <span>
+                          </span>Yes
+                        </label>
+                      </div>
+
+                      <div>
+                        <input type="radio" id="color-2" name="existing" value="No" checked>
+                        <label for="color-2">
+                          <span>
+                          </span>No
+                        </label>
+                      </div>
+            </div>
+              </div>
+          <div class="col-xs-12" align="center">
+              <button type="button" class="btn btn-primary">Submit</button>
+              <button type="button" value="reset" class="btn btn-default">Reset</button><!--data-dismiss="modal"-->
+          </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--      contact us div close-->
+   <div class="container-fluid">
+    <div class="col-lg-12"><h1 align="center" style="font-family: 'raleway',sans-serif;">C&nbsp; O&nbsp; L&nbsp; L &nbsp;E &nbsp;G &nbsp;E &nbsp;&nbsp;&nbsp;&nbsp; P&nbsp; R &nbsp;O &nbsp;J &nbsp;E &nbsp; C &nbsp;T &nbsp;S</h1></div>
+               <div class="col-lg-6 col-md-6 col-xs-12" style="padding: 10px">
+                    <div id="choosepanel">
+                         <div align="center">
+                            <img src="img/service_logos/icon1.png" style="margin:5px;margin-top:20px;" width="100px" height="100px">
+                        </div>
+                        <h2 align="center" style="font-family: 'Raleway', sans-serif;">Web Applications</h2>
+                        <p align="center"  style="font-family: 'montserrat', sans-serif;padding:15px;font-size: 16px">Web based projects using various  programming languages html, css, bootstrap, php, javascrpit, jquery etc with databse integration using <u>MySql</u></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12" style="padding: 10px">
+                    <div id="choosepanel">
+                         <div align="center">
+                            <img src="img/service_logos/icon1.png" style="margin:5px;margin-top:20px;" width="100px" height="100px">
+                        </div>
+                        <h2 align="center" style="font-family: 'Raleway', sans-serif;">Quality Work</h2>
+                        <p align="center"  style="font-family: 'Raleway', sans-serif;padding:15px;font-size: 16px">We asuure that our work is based on provide quality products/Service to our Customer.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12" style="padding: 10px">
+                    <div id="choosepanel">
+                         <div align="center">
+                            <img src="img/service_logos/icon1.png" style="margin:5px;margin-top:20px;" width="100px" height="100px">
+                        </div>
+                        <h2 align="center" style="font-family: 'Raleway', sans-serif;">Quality Work</h2>
+                        <p align="center"  style="font-family: 'Raleway', sans-serif;padding:15px;font-size: 16px">We asuure that our work is based on provide quality products/Service to our Customer.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12" style="padding: 10px">
+                    <div id="choosepanel">
+                         <div align="center">
+                            <img src="img/service_logos/icon1.png" style="margin:5px;margin-top:20px;" width="100px" height="100px">
+                        </div>
+                        <h2 align="center" style="font-family: 'Raleway', sans-serif;">Quality Work</h2>
+                        <p align="center"  style="font-family: 'Raleway', sans-serif;padding:15px;font-size: 16px">We asuure that our work is based on provide quality products/Service to our Customer.</p>
+                    </div>
+                </div>
+</div>
+      
+            
+<!--    Footer  -->
+     <div class="container-fluid" style="background-color: black">
+        <div class="col-xs-12"><div class="col-lg-12" align="center">
+        <img id="footerlogo" src="img/main3.png"></div>
+        <div class="col-md-12 col-lg-12 col-xs-12"><div align="center">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul></div>				
+				</div>
+        </div>
+        <div class="container-fluid col-xs-12">
+        <div class="container-fluid col-xs-6">
+        <div id="copyrights" style="float: left">
+            <label ><i>Terms & Condition Apply</i></label></div>
+        </div>
+        <div class="container-fluid col-xs-6"><div  id="copyrights" style="float: right">
+                <label><i>All Rights Reserved 2018</i></label></div>
+        </div>
+        </div> 
+         
+    </div>
+<!--    close footer-->
+
+
+
+ <!-- Bootstrap core JavaScript================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- close javascrpit    -->
+  </body>
+</html>

@@ -1,0 +1,216 @@
+#mydropdown{
+    opacity: 0.0;
+    margin-top: 61px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+}
+
+#home:hover > #mydropdown{
+    opacity: 1.0;
+}
+
+li a{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navlink li a{
+    color:whitesmoke;
+}
+
+#dropstyle{
+    background-color: black;
+}
+
+
+/*side menu css*/
+ul {
+    list-style-type: none;
+	padding: 0;
+}
+
+#sidebar-menu .main-menu a {
+    display: block;
+	font-size: 13px;
+	font-weight: 500;
+	color: #999;
+	padding: 4px 10px;
+}
+#sidebar-menu .main-menu a:hover {
+	color: #11427D;
+	text-decoration: none;
+	background-color: transparent;
+	border-left: 1px solid #11427D;
+}
+/*closem side menu css*/
+#mainlogoimg{
+    width:200px;
+    height:70px; 
+}
+#mainlogo{
+    position: absolute;
+    top 30px;
+}
+ #footerlogo{
+        height: 45px;width: 160px;margin-top:10px;
+    }
+
+#dropdown li a{
+    color: black;
+    font-size: 16px;
+}
+#maincontent{
+    background-image: url("/img/banner1-min.jpg");
+}
+.form-control{
+    border-radius:1rem;
+}
+#copyrights{
+     padding:0px;
+    margin-top: -29px;
+}
+
+li.dropdown.open .dropdown-menu {
+  display:table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+#choosepanel:hover{
+    background-color: cornflowerblue;
+}
+#choosepanel{
+    background-color:white;cursor: pointer
+}
+/*radio icon css start*/
+
+.custom-radios div {
+  display: inline-block;
+}
+.custom-radios input[type="radio"] {
+  display: none;
+}
+.custom-radios input[type="radio"] + label {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 44px;
+}
+.custom-radios input[type="radio"] + label span img {
+  opacity: 0;
+  transition: all .3s ease;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+  background-color: #2ecc71;
+}
+.custom-radios input[type="radio"]#color-2 + label span {
+  background-color: #3498db;
+}
+.custom-radios input[type="radio"]#color-3 + label span {
+  background-color: #f1c40f;
+}
+.custom-radios input[type="radio"]#color-4 + label span {
+  background-color: #e74c3c;
+}
+.custom-radios input[type="radio"]:checked + label span {
+  opacity: 1;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg) center center no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+
+}
+/*radio css end*/
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 40px;
+	height: 40px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:40px;
+	text-align: center;
+}
+/*end of social icon*/
+
+@media screen and (max-width: 766px) {
+    #mainlogoimg{
+        width: 140px;
+        height: 45px;
+    }
+    #mainlogo{
+        margin: 0px;;padding: 0px;
+    }
+    #dropdown li a{
+    color: whitesmoke;
+    font-size: 14px;
+    }
+    #footerlogo{
+        width: 170px;
+        height: 50px;
+        
+    }
+    
+    
+}
