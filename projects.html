@@ -17,71 +17,201 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <!--Pulling Awesome Font -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
 
     <!-- Custom styles for this template -->
-      <link href="css/mystyle.css" rel="stylesheet">
-
+     <link href="css/mystyle.css" rel="stylesheet">
+        <link href="dropdown.css" rel="stylesheet">
+      
   </head>
 
   <body>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: black;border: 0px">
-      <div class="container-fluid">
-        <div class="navbar-header col-lg-4">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-         <a class="navbar-brand" href="index.html" id="mainlogo"><img id="mainlogoimg" src="img/main3.png"/></a>
+<!-- Fixed navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#"><img id="mainlogoimg" src="img/main3.png"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Category</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 1
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <span class="text-uppercase text-white">Category 1</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav" style="margin-top: 5px; margin-bottom: 5px"  id="navlink">
-            <li><a href="#" id="home">Home</a></li>
-            <li class="dropdown">
-              <a href="#" id="dropstyle" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-              <ul class="dropdown-menu" id="dropdown">
-                <li><a href="service.html">MobileApp Development</a></li>
-                <li><a href="service.html">Windows Application</a></li>
-                                <li><a href="service.html" >Web Development/Design</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">IOT</li>
-                <li><a href="service.html">Home Automation</a></li>
-                <li><a href="service.html">Robotics</a></li>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 2
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <span class="text-uppercase text-white">Category 2</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
               </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" id="dropstyle" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-              <ul class="dropdown-menu" id="dropdown">
-                <li><a href="#">Professional Projects</a></li>
-                <li role="separator" class="divider"></li>
-<!--              <li class="dropdown-header">Nav header</li>-->
-                <li><a href="#">College Projects</a></li>
-                  <li role="separator" class="divider"></li>
-<!--              <li class="dropdown-header">Nav header</li>-->
-                <li><a href="#">Custom Projects</a></li>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
               </ul>
-            </li>
-               <li><a data-toggle="modal" style="cursor: pointer" data-target="#myModal">Contact Us</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right"  id="navlink">
-            <li><a>123-34-34-45 </a></li>
-              
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    
-    <div id="mydropdown"><ul>
-                <li><a href="#">Professional Projects</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">College Projects</a></li>
-                  <li role="separator" class="divider"></li>
-                <li><a href="#">Custom Projects</a></li>
-                 <li><a href="#">Custom Projects</a></li>
-              </ul></div>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 3
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+               <span class="text-uppercase text-white">Category 3</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+                
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
+        </div>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+
+</nav>
+<!-- close new navbar -->
+
 
 <!--    Contact Us form div-->
 <div class="modal fade container-fluid" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -126,6 +256,9 @@
   </div>
 </div>
 <!--      contact us div close-->
+  
+  
+<!--
    <div class="container-fluid">
     <div class="col-lg-12"><h1 align="center" style="font-family: 'raleway',sans-serif;">C&nbsp; O&nbsp; L&nbsp; L &nbsp;E &nbsp;G &nbsp;E &nbsp;&nbsp;&nbsp;&nbsp; P&nbsp; R &nbsp;O &nbsp;J &nbsp;E &nbsp; C &nbsp;T &nbsp;S</h1></div>
                <div class="col-lg-6 col-md-6 col-xs-12" style="padding: 10px">
@@ -166,6 +299,7 @@
                 </div>
 </div>
       
+-->
             
 <!--    Footer  -->
      <div class="container-fluid" style="background-color: black">
@@ -201,6 +335,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
+<script>
+$(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+
+// breakpoint and up  
+$(window).resize(function(){
+	if ($(window).width() >= 980){	
+
+      // when you hover a toggle show its dropdown menu
+      $(".navbar .dropdown-toggle").hover(function () {
+         $(this).parent().toggleClass("show");
+         $(this).parent().find(".dropdown-menu").toggleClass("show"); 
+       });
+
+        // hide the menu when the mouse leaves the dropdown
+      $( ".navbar .dropdown-menu" ).mouseleave(function() {
+        $(this).removeClass("show");  
+      });
+  
+		// do something here
+	}	
+});  
+// document ready  
+});
+
+</script>
 <!-- close javascrpit    -->
   </body>
 </html>

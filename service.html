@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
       <link href="css/mystyle.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/dropdown.css">
 
   </head>
 
@@ -89,6 +90,7 @@
           <div class="col-xs-12 col-lg-6 col-md-6" style="margin-bottom:10px;"><div class="form-group"><input class="form-control" type="text" placeholder="Last Name : *" required/></div></div>
           <div class="col-xs-12 col-lg-8 col-md-8" style="margin-bottom:10px;"><div class="form-group"><input class="form-control" type="text" placeholder="Email *" required/></div></div>
           <div class="col-xs-12 col-lg-12 col-md-12" style="margin-bottom: 10px;"><div class="form-group"><textarea class="form-control" style="height:100px;" placeholder="How we can help you *" required></textarea></div></div>
+<!--
               <div class="col-xs-12 col-lg-12 col-md-12" style="margin-bottom:15px;">
              <div class="custom-radios form-group">Are you our existing client : 
                       <div>
@@ -108,6 +110,7 @@
                       </div>
             </div>
               </div>
+-->
           <div class="col-xs-12" align="center">
               <button type="button" class="btn btn-primary">Submit</button>
               <button type="button" value="reset" class="btn btn-default">Reset</button><!--data-dismiss="modal"-->
@@ -248,10 +251,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-<script type="text/javascript">
+    <script src="jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script type="text/javascript">
    $(function() {
     $('#weba').click(function () {
        $('html, body').animate({
@@ -279,8 +282,5 @@
     });
 });   
 </script>
- 
- 
- 
   </body>
 </html>

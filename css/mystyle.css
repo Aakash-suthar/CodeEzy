@@ -1,29 +1,38 @@
 #mydropdown{
-    opacity: 0.0;
-    margin-top: 61px;
     width: 100%;
     background-color: aqua;
     position: fixed;
+    top:50px;
+    z-index: 9999;
+    visibility:
 }
-
-#home:hover > #mydropdown{
-    opacity: 1.0;
-}
-
+/*#home:hover div#mydropdown{opacity:1.0;}*/
 li a{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
 
-#navlink li a{
-    color:whitesmoke;
+.flex-column .nav-item .nav-link{
+    font-family: 'raleway',sans-serif;
+    font-size: 17px;
+}
+.flex-column{
+    margin-top: 10px;
+}
+
+.flex-column .nav-item .nav-link{
+    padding: 0px;
+    margin: 0px;
+    line-height: 22px;
+}
+
+.flex-column .nav-item .nav-link:hover{
+    color: aqua;
 }
 
 #dropstyle{
     background-color: black;
 }
-
-
 /*side menu css*/
 ul {
     list-style-type: none;
@@ -45,12 +54,13 @@ ul {
 }
 /*closem side menu css*/
 #mainlogoimg{
-    width:200px;
-    height:70px; 
+    width:180px;
+    height:60px; 
 }
 #mainlogo{
     position: absolute;
-    top 30px;
+    top : -35px;
+    left:0px;
 }
  #footerlogo{
         height: 45px;width: 160px;margin-top:10px;
