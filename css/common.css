@@ -1,17 +1,59 @@
-/*global css*/
+/*
+.alert-box {
+	padding: 15px;
+    border: 1px solid transparent;
+    position:absolute;
+    border-radius: 4px; 
+    margin-top: 65px;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    display: none;
+}
+
+.failure {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    display: none;
+}
+*/
+.fa{
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linea;
+}
+#hello:hover .fa{
+     -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
 ul {
     list-style-type: none;
 	padding: 0;
+}
+.navbar-brand{
+    color: whitesmoke !important;
+    font-size: 30px; font-family: 'raleway',san-serif;
+    letter-spacing: 2px;
 }
 h2{
     font-family: 'raleway',sans-serif;
     font-size: 35px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 li a{
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
 }
  #footerlogo{
         height: 40px;width: 140px;margin-top:10px;
@@ -30,28 +72,11 @@ li a{
 .flex-column .nav-item .nav-link{
     padding: 0px;
     margin: 0px;
-    line-height: 22px;
+    line-height: 32px;
 }
 
 .flex-column .nav-item .nav-link:hover{
     color: cadetblue!important;
-}
-/*close global css*/
-
-#icon {
-    -moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    transition: all .3s linea;
-}
-#icon2 {
-    -moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    transition: all .3s linea;
-}
-.down {
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    transform:rotate(90deg);
 }
 #mainlogoimg{
     width:180px;
@@ -63,6 +88,64 @@ li a{
     top : -35px;
     left:0px;
 }
+/*dropdown css*/
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color:whitesmoke;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+.navbar .nav-item {
+  padding:.5rem .75rem;
+/*  margin:0 .25rem;*/
+}
+
+/* makes the dropdown full width  */
+.navbar .dropdown {position:static;}
+
+.navbar .dropdown-menu {
+  width:100%;
+  left:0;
+  right:0;
+     margin-top: -1px;
+/*  height of nav-item  */
+  
+  display:block;
+  visibility: hidden;
+/*  opacity: 0.5;*/
+  transition: visibility 0.1s, opacity 0s ease;
+  
+}  
+  /* shows the dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block;
+  visibility: visible;
+/*  opacity: 1;*/
+  transition: visibility 0.1s, opacity 0s linear;
+}
+  
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+/*    background-color: whitesmoke;*/
+  }
+
+}
+
+/*close dropdown css*/
 
 
 /* form radio icon css start*/

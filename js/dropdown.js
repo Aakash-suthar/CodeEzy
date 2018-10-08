@@ -1,9 +1,6 @@
 $(document).ready(function() {
  // executes when HTML-Document is loaded and DOM is ready
-    $("#hello").hover(function () {
-    $("#icon").toggleClass("down");})
-    $("#hello2").hover(function () {
-    $("#icon2").toggleClass("down");})
+
 // breakpoint and up  
 $(window).resize(function(){
 	if ($(window).width() >= 980){	
