@@ -1,4 +1,56 @@
+h3{
+text-align: center;
+    font-family: 'Raleway',sans-serif;
+}
+#jumbodiv{
+   background-color: whitesmoke;margin-bottom: 130px;
+   border-radius: 27px 27px 0px 0px;
+   -moz-border-radius: 27px 27px 0px 0px;
+    -webkit-border-radius: 27px 27px 0px 0px;
+    border: 0px solid #000000;
+}
 /*side menu css*/
-
-
+#choosepanel2{
+    background-color: whitesmoke;
+    -webkit-box-shadow: 4px 8px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 8px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 8px 31px 0px rgba(0,0,0,0.75);
+    
+border-radius: 27px 27px 27px 27px;
+-moz-border-radius: 27px 27px 27px 27px;
+-webkit-border-radius: 27px 27px 27px 27px;
+border: 0px solid #000000;
+}
+#choosepanel img{
+   margin:5px;margin-top:20px;
+    width:100px;height:100px;
+}
+.why{
+     text-align:center;font-family: 'Raleway', sans-serif;padding:15px;font-size: 16px;
+}
+#floated{
+    position: absolute;
+    top : 800px;
+}
+#floated2{
+    position: absolute;
+    top : 1340px;
+}
+#progress{
+    height: 5px;background-color: orangered;width: 15%;
+    padding: 0px;margin: 0px;
+     -webkit-transition: width 0.7s ease; /* For Safari 3.1 to 6.0 */
+    transition: width 0.7s ease;
+}
+#choosepanel:hover #progress{
+    width: 90%;
+}
 /*closem side menu css*/
+
+h1{
+    font-family: 'raleway',sans-serif;
+    font-size: 50px;
+    color: gray;
+    padding-top: 30px;
+    text-align: center;
+}
