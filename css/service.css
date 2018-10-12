@@ -1,3 +1,18 @@
+.d-block{
+    margin-top: 120px;
+    background-color: black;
+    height:400px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.fot{
+     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
 h3{
 text-align: center;
     font-family: 'Raleway',sans-serif;
@@ -16,10 +31,15 @@ text-align: center;
     -moz-box-shadow: 4px 8px 31px 0px rgba(0,0,0,0.75);
     box-shadow: 4px 8px 31px 0px rgba(0,0,0,0.75);
     
+/*
 border-radius: 27px 27px 27px 27px;
 -moz-border-radius: 27px 27px 27px 27px;
 -webkit-border-radius: 27px 27px 27px 27px;
 border: 0px solid #000000;
+*/
+}
+#choosepanel{
+    background-color: whitesmoke;
 }
 #choosepanel img{
    margin:5px;margin-top:20px;
@@ -30,20 +50,11 @@ border: 0px solid #000000;
 }
 #floated{
     position: absolute;
-    top : 800px;
+    top : 900px;
 }
 #floated2{
     position: absolute;
-    top : 1340px;
-}
-#progress{
-    height: 5px;background-color: orangered;width: 15%;
-    padding: 0px;margin: 0px;
-     -webkit-transition: width 0.7s ease; /* For Safari 3.1 to 6.0 */
-    transition: width 0.7s ease;
-}
-#choosepanel:hover #progress{
-    width: 90%;
+    top : 1540px;
 }
 /*closem side menu css*/
 
