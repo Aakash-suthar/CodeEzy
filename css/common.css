@@ -1,3 +1,15 @@
+#maincontent{
+/*    background-image: url("/img/banner1-min.jpg");*/
+   
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+.maincontent{
+     padding-top: 50px;padding-bottom: 90px;
+}
 /*
 .alert-box {
 	padding: 15px;
@@ -81,15 +93,18 @@ ul {
 	padding: 0;
 }
 .navbar-brand{
-    color: whitesmoke !important;
+/*    color: whitesmoke !important;*/
     font-size: 30px; font-family: 'raleway',san-serif;
     letter-spacing: 2px;
+}
+.text-white:hover{
+    color:darkblue!important;
 }
 h2{
     font-family: 'raleway',sans-serif;
     font-size: 35px;
     text-align: center;
-    margin-top: 25px;
+    padding-top: 25px;
 }
 li a{
     font-size: 19px;

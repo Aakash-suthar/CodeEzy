@@ -1,9 +1,21 @@
+
 .d-block{
     margin-top: 120px;
-    background-color: black;
-    height:400px;
+    height:450px;
     padding-top: 40px;
     padding-bottom: 0px;
+}
+.d-block h1{
+    color: whitesmoke;margin-bottom: 20px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 45px;padding-top: 0px;
+    text-align: center;
+}
+.d-block p{
+    color:dimgray;font-size:22px;
+    font-family: 'raleway',sans-serif;
+    text-align: center;
+    margin-top: 40px;
 }
 .fot{
      background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -45,16 +57,23 @@ border: 0px solid #000000;
    margin:5px;margin-top:20px;
     width:100px;height:100px;
 }
+#choosepanel h3{
+    padding-top: 45px;
+    font-family: 'Coda',sans-serif;
+}
 .why{
-     text-align:center;font-family: 'Raleway', sans-serif;padding:15px;font-size: 16px;
+    padding:20px;
+     text-align:center;font-family: 'Raleway', sans-serif;padding-bottom:25px;font-size: 16px;
+    padding-top:20px;
+    color: antiquewhite;
 }
 #floated{
     position: absolute;
-    top : 900px;
+    top : 950px;
 }
 #floated2{
     position: absolute;
-    top : 1540px;
+    top : 1440px;
 }
 /*closem side menu css*/
 
