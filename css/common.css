@@ -96,13 +96,17 @@ ul {
 /*    color: whitesmoke !important;*/
     font-size: 30px; font-family: 'raleway',san-serif;
     letter-spacing: 2px;
+    color: white !important;
+}
+.navbar-brand:hover{
+    color: wheat!important;
 }
 .text-white:hover{
     color:darkblue!important;
 }
 h2{
     font-family: 'raleway',sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     padding-top: 25px;
 }
