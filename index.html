@@ -203,11 +203,9 @@
 <div class="alert-box success">Successful Alert !!!</div>
 <div class="alert-box failure">Failure Alert !!!</div>       
 -->
-   
-           
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="container-fluid maincontent" id="maincontent">
-      <div class="jumbotron" style="margin-top: 100px; background-color: transparent">
+    <div class="container-fluid" id="maincontent">
+      <div class="jumbotron" style="padding-top: 160px; background-color: transparent">
         <h1 align="center" style="color:antiquewhite;margin-bottom: 20px;font-family: 'Raleway',sans-serif;font-size: 60px;">IT Services</h1>
         <p align="center" style="color:antiquewhite;font-size:22px;font-family: 'raleway',san-serif;margin-top: 40px;">Web Design, App Development, Home Automation & Other related services.</p>
         <p align="center" style="color:bisque;font-size:22px;font-family: 'raleway',san-serif;">Quality Work, Support, Affordable prices etc.</p>
@@ -221,7 +219,7 @@
 
  
 <!--service and projects div-->
-<div class="container-fluid" style="background-color:whitesmoke;padding-bottom:20px;">
+<div class="container-fluid" style="background-color:whitesmoke;padding-bottom:20px;" id="panel2">
         <div class="container-fluid">
         <div class="container-fluid">
         <h2>S&nbsp; E &nbsp;R&nbsp; V&nbsp; I&nbsp; C&nbsp; E&nbsp; S</h2></div><hr>
@@ -347,7 +345,7 @@
 
 
 <!--    static img content-->
-           <div class="container-fluid" style="background-image: linear-gradient(-45deg,red,lightblue,whitesmoke);">
+           <div class="container-fluid" style="background-image: linear-gradient(-45deg,red,lightblue,whitesmoke);" id="panel3">
                 <div class="jumbotron" style="padding-bottom: 120px; background-color: transparent;">
                     <h1 align="center" style="color: white;margin-top: 70px; margin-bottom: 20px;">IT Services</h1>
                     <p align="center" style="color:dimgray;font-size:22px;font-family: 'raleway',san-serif;">Web Design, App Development, Home Automation</p>
@@ -362,7 +360,7 @@
             
     
 <!--    Why choose us-->
- <div class="container-fluid" style="background-color: whitesmoke;padding-top: 10px;">
+ <div class="container-fluid" style="background-color: whitesmoke;padding-top: 10px;" id="panel4">
         <h2>W H Y &nbsp;&nbsp;&nbsp;C H O O S E&nbsp;&nbsp;&nbsp; U S ?</h2>
                 <div class="row" style="padding-top: 40px;padding-bottom: 40px;cursor:pointer;"> 
                 <div class="col-lg-3 col-xs-6 col-md-6" id="choosepanel">
@@ -434,6 +432,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script  src="js/dropdown.js"></script>
+<script src="js/mousewheel.js"></script>
 <script>
     $(document).ready(function(){
        $("#save").click(function(){  
@@ -447,12 +446,10 @@
             if(data == "true"){
                 $('#myModal').hide();
                 alert("...Successfully Submitted..."); 
-               // $(".success").fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
             }
             else {
                 $('#myModal').hide();
                  alert("...Failed Submission...");
-                //  $(".failure").fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
             }
         }
       ,
@@ -465,6 +462,7 @@
     }); 
     });
 </script>
+<script src="js/scroll.js"></script>
  <!-- close javascrpit    -->
   </body>
 </html>

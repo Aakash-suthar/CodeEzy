@@ -6,9 +6,7 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
-}
-.maincontent{
-     padding-top: 50px;padding-bottom: 22px;
+    padding-top: 65px;padding-bottom: 22px;
 }
 /*
 #hello:hover .row #cirlce{
